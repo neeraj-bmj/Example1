@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flower type example</title>
+    <style>
+         .containeer{
+            width: 500px;
+            height: 500px;
+            position: relative;
+         }
+         .same{
+            width: 250px;
+            height: 250px;
+            position: absolute;
+         }
+         .yellow{
+             background-color: yellow;
+             top: 0px;
+             left: 0px;
+             border-bottom-left-radius: 250px;
+             border-top-right-radius: 250px;
+            }
+            .red{
+                background-color: rgb(255, 23, 23);
+                top: 0px;
+                right: 0px;
+                border-top-left-radius: 250px;
+                border-bottom-right-radius: 250px;
+            }
+            .blue{
+                background-color: blue;
+                bottom: 0px;
+                left: 0px;
+                border-top-left-radius: 250px;
+                border-bottom-right-radius: 250px;
+            }
+            .green{
+                background-color: green;
+                bottom: 0px;
+                right: 0px;
+                border-bottom-left-radius: 250px;
+                border-top-right-radius: 250px;
+            }
+            
+    </style>
+  </head>
+  <body>
+       <div class="containeer">
+        <div class="same red"></div>
+        <div class="same yellow"></div>
+        <div class="same green"></div>
+        <div class="same blue"></div>
+       </div>
+  </body>
+</html>
